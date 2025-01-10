@@ -98,6 +98,22 @@ section {
 	margin-top:40px;
 	padding:20px;
 }
+#Home {
+    text-align: center; 
+    padding: 50px 20px; 
+    margin: 0 auto; 
+}
+
+#Home h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+#Home p {
+    font-size: 1.2rem; 
+    line-height: 1.6;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
