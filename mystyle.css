@@ -9,10 +9,6 @@ position: fixed;
     padding:10px 0;
 　　font-family: Arial, sans-serif;
 }
-header img{
-	width: 150%;
-	height: auto;
-}
 header a {
     color: #000; 
     text-decoration: none;
@@ -27,7 +23,7 @@ header h1 {
     text-align: center;
 }
 header h1 img {
-    max-width: 200px; 
+    max-width: 250px; 
     height: auto;
 }
 .modal {
