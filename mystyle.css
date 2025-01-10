@@ -178,21 +178,21 @@ h2 {
 /* 動画全体のスタイル */
 .video-container {
     display: flex; /* 動画を横並びに配置 */
-    flex-wrap: wrap; /* 横に収まらない場合は改行 */
-    justify-content: space-around; /* 動画の間隔を調整 */
-    gap: 20px; /* 動画間のスペース */
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px; 
     padding: 20px;
 }
 .video-wrapper {
     width: 100%;
-    max-width: 480px; /* 動画の最大幅を設定 */
-    text-align: center; /* 動画タイトルを中央揃え */
+    max-width: 480px; 
+    text-align: center;
 }
 .video-wrapper video {
     width: 100%;
     height: auto;
-    border: 1px solid #ccc; /* 動画の枠線を追加（オプション） */
-    border-radius: 8px; /* 枠線を丸める（オプション） */
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
 }
 footer {
     background-color: #333; 
