@@ -1,20 +1,20 @@
 header{
-position: fixed; /* ページ上部に固定 */
-    top: 0; /* 上詰め */
+position: fixed; 
+    top: 0; 
     left: 0;
-    width: 100%; /* ヘッダーを幅いっぱいにする */
-    background-color: #dfd3fa; /* ヘッダーの背景色 */
-    color: #000; /* ヘッダー内の文字色 */
-    z-index: 1000; /* 他の要素の上に表示 */
+    width: 100%; 
+    background-color: #dfd3fa; 
+    color: #000; 
+    z-index: 1000; 
     padding:10px 0;
 }
 header a {
-    color: #000; /* リンクの文字色 */
+    color: #000; 
     text-decoration: none;
     padding: 10px;
 }
 header a:hover {
-    color: #555; /* ホバー時の文字色 */
+    color: #555; 
 }
 header h1 {
     margin: 0;
@@ -24,6 +24,39 @@ header h1 {
 header h1 img {
     max-width: 200px; 
     height: auto;
+}
+.modal {
+    display: none; /* 初期状態では非表示 */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* 背景の半透明黒 */
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.close:hover,.close:focus {
+    color: #ccc;
 }
 nav {
     display: flex;
